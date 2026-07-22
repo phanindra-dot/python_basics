@@ -45,7 +45,7 @@ def return_all_wav_files_except_inthat(path): # return all the wav files names i
 
 if __name__=="__main__":
   path=r"C:\Users\USER\Desktop\stream_fp8_op_par"
-  b=return_all_wav_files_except_inthat(path)
+  b=return_all_wav_files_paths(path)
   print(b)
 
 
