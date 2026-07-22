@@ -17,13 +17,6 @@ def return_base_name(path):
   e=os.path.basename(path)   # basename means the last name here stream_fp8_op_par
   return e
 
-def return_all_wav_files(path): # return all the wav files names in all the folders in a given path including the wav in the path.
-  l=[]
-  for root,dirs,files in os.walk(path):
-    for i in files:
-      if i.endswith('.wav'):
-        l.append(i)
-  return l
 
 def return_all_wav_files_paths(path): # return all the wav files path name in all the folders in a given path and also in the given path.
   a=[]
